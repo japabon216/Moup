@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631664513305",
+    "project_id": "moup-a6be0",
+    "storage_bucket": "moup-a6be0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631664513305:android:f32aea6c57cdff3c06f588",
+        "android_client_info": {
+          "package_name": "hello.unicauca.moup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631664513305-b8rpvoaaokslccvi8oesldf55sj5qpos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_T_Pp6tnEwjZd573aAicKYXMufkvMwiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631664513305-b8rpvoaaokslccvi8oesldf55sj5qpos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

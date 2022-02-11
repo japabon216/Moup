@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkblue">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/darkblue">
+
+        <androidx.appcompat.widget.AppCompatImageView
+
+            android:id="@+id/idImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_launcher">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+                android:id="@+id/idNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </androidx.appcompat.widget.AppCompatCheckedTextView>
+
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+
+                android:id="@+id/idDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripcion"
+                android:textColor="@color/white"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp">
+
+
+            </androidx.appcompat.widget.AppCompatCheckedTextView>
+
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+
+                android:id="@+id/idOferta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oferta"
+                android:textColor="@color/white"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp">
+
+
+            </androidx.appcompat.widget.AppCompatCheckedTextView>
+
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+
+                android:id="@+id/idPlaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placa"
+                android:textColor="@color/white"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp">
+
+
+            </androidx.appcompat.widget.AppCompatCheckedTextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple_200"
+        android:layout_below="@id/idImagen"
+        android:layout_marginTop="11dp">
+
+    </androidx.appcompat.widget.AppCompatCheckedTextView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
